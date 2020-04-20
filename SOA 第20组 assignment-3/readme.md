@@ -1,6 +1,7 @@
-<img width="1184" alt="Assignment3代码理解" src="https://user-images.githubusercontent.com/44460142/79767002-b3d05f80-8363-11ea-836d-7fef7d84e62a.png">
+# DOM Parser
 
 ---
+
 
 - fixXML1():
 
@@ -65,3 +66,6 @@
     生成一个包括14个'<学生>'元素的'<学生列表>'元素
     使用importNode()之后,添加之前修改XML1的'<学生>'元素到'<学生列表>'元素里
     最后通过调用makeXMLFile()，生成'StudentList.xml'文件
+    
+    
+    <img width="1184" alt="Assignment3代码理解" src="https://user-images.githubusercontent.com/44460142/79767002-b3d05f80-8363-11ea-836d-7fef7d84e62a.png">
