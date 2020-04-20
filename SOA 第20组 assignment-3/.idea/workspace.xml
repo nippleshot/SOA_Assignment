@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="221d3c2f-dc3d-4b9d-afe7-a2e7a0a6a4db" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1al5FuIcF5Iu5vn8WmvCiwc8bDI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.DOMParser">
+    <configuration name="DOMParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DOMParser" />
+      <module name="SOA 第20组 assignment-3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DOMParserFail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DOMParserFail" />
+      <module name="SOA 第20组 assignment-3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DOMParser" />
+        <item itemvalue="Application.DOMParserFail" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="221d3c2f-dc3d-4b9d-afe7-a2e7a0a6a4db" name="Default Changelist" comment="" />
+      <created>1587297239494</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587297239494</updated>
+      <workItem from="1587297240876" duration="30360000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1638" height="208" key="GridCell.Tab.0.bottom" timestamp="1587394035893">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="208" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1587394035893" />
+    <state width="1638" height="208" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1587391163856" />
+    <state width="1638" height="208" key="GridCell.Tab.0.center" timestamp="1587394035891">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="208" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1587394035891" />
+    <state width="1638" height="208" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1587391163855" />
+    <state width="1638" height="208" key="GridCell.Tab.0.left" timestamp="1587394035891">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="208" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1587394035891" />
+    <state width="1638" height="208" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1587391163854" />
+    <state width="1638" height="208" key="GridCell.Tab.0.right" timestamp="1587394035892">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="208" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1587394035892" />
+    <state width="1638" height="208" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1587391163855" />
+    <state x="929" y="0" width="751" height="1050" key="dock-window-1" timestamp="1587391853416">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="929" y="0" width="751" height="1050" key="dock-window-1/0.23.1680.1027@0.23.1680.1027" timestamp="1587391853416" />
+    <state x="217" y="147" key="new project wizard" timestamp="1587297266855">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="217" y="147" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1587297266855" />
+  </component>
+</project>
