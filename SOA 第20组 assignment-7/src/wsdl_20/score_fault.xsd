@@ -1,69 +1,68 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<xs:schema xmlns="http://www.w3.org/2001/XMLSchema"
-           xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           targetNamespace="http://jw.nju.edu.cn/schema/studentScore-faults">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://jw.nju.edu.cn/schema">
 
     <xs:element name="InvalidCourseId">
         <xs:complexType>
             <xs:all>
-                <xs:element name="errorCode" type="int"/>
-                <xs:element name="errorMessage" type="string"/>
+                <xs:element name="errorCode" type="xs:int"/>
+                <xs:element name="errorMessage" type="xs:string"/>
             </xs:all>
         </xs:complexType>
     </xs:element>
     <xs:element name="InvalidStudentId">
         <xs:complexType>
             <xs:all>
-                <xs:element name="errorCode" type="int"/>
-                <xs:element name="errorMessage" type="string"/>
+                <xs:element name="errorCode" type="xs:int"/>
+                <xs:element name="errorMessage" type="xs:string"/>
             </xs:all>
         </xs:complexType>
     </xs:element>
     <xs:element name="InvalidScoreType">
         <xs:complexType>
             <xs:all>
-                <xs:element name="errorCode" type="int"/>
-                <xs:element name="errorMessage" type="string"/>
+                <xs:element name="errorCode" type="xs:int"/>
+                <xs:element name="errorMessage" type="xs:string"/>
             </xs:all>
         </xs:complexType>
     </xs:element>
     <xs:element name="InvalidScore">
         <xs:complexType>
             <xs:all>
-                <xs:element name="errorCode" type="int"/>
-                <xs:element name="errorMessage" type="string"/>
+                <xs:element name="errorCode" type="xs:int"/>
+                <xs:element name="errorMessage" type="xs:string"/>
             </xs:all>
         </xs:complexType>
     </xs:element>
     <xs:element name="NotExistStudentId">
         <xs:complexType>
             <xs:all>
-                <xs:element name="errorCode" type="int"/>
-                <xs:element name="errorMessage" type="string"/>
+                <xs:element name="errorCode" type="xs:int"/>
+                <xs:element name="errorMessage" type="xs:string"/>
             </xs:all>
         </xs:complexType>
     </xs:element>
     <xs:element name="NotExistScore">
         <xs:complexType>
             <xs:all>
-                <xs:element name="errorCode" type="int"/>
-                <xs:element name="errorMessage" type="string"/>
+                <xs:element name="errorCode" type="xs:int"/>
+                <xs:element name="errorMessage" type="xs:string"/>
             </xs:all>
         </xs:complexType>
     </xs:element>
     <xs:element name="DataAlreadyExist">
         <xs:complexType>
             <xs:all>
-                <xs:element name="errorCode" type="int"/>
-                <xs:element name="errorMessage" type="string"/>
+                <xs:element name="errorCode" type="xs:int"/>
+                <xs:element name="errorMessage" type="xs:string"/>
             </xs:all>
         </xs:complexType>
     </xs:element>
     <xs:element name="DataFault">
         <xs:complexType>
             <xs:all>
-                <xs:element name="errorCode" type="int"/>
-                <xs:element name="errorMessage" type="string"/>
+                <xs:element name="errorCode" type="xs:int"/>
+                <xs:element name="errorMessage" type="xs:string"/>
             </xs:all>
         </xs:complexType>
     </xs:element>

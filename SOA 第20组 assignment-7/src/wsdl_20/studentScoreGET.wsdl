@@ -3,7 +3,7 @@
         xmlns="http://www.w3.org/ns/wsdl"
         targetNamespace="http://jw.nju.edu.cn/wsdl/studentScoreGET"
         xmlns:tns="http://jw.nju.edu.cn/wsdl/studentScoreGET"
-        xmlns:sf="http://jw.nju.edu.cn/schema/studentScore-faults"
+        xmlns:sf="http://jw.nju.edu.cn/schema"
         xmlns:gns="http://jw.nju.edu.cn/schema/getInOut"
         xmlns:wsoap="http://www.w3.org/ns/wsdl/soap"
         xmlns:soap="http://www.w3.org/2003/05/soap-envelop">
@@ -12,25 +12,23 @@
 
     <types>
         <xs:import xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                   namespace="http://jw.nju.edu.cn/schema/studentScore-faults"
+                   namespace="http://jw.nju.edu.cn/schema"
                    schemaLocation="score_fault.xsd"/>
 
         <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
                    targetNamespace="http://jw.nju.edu.cn/schema/getInOut"
-                   xmlns:cns="http://www.nju.edu.cn/schema/Course"
-                   xmlns:sns="http://www.nju.edu.cn/schema/Student"
-                   xmlns:slns="http://www.nju.edu.cn/schema/ScoreList">
+                   xmlns:sns="http://jw.nju.edu.cn/schema">
 
-            <xs:import namespace="http://jw.nju.edu.cn/schema/Course"
-                       schemaLocation="./Course.xsd"/>
-            <xs:import namespace="http://jw.nju.edu.cn/schema/Student"
-                       schemaLocation="./Student.xsd"/>
-            <xs:import namespace="http://jw.nju.edu.cn/schema/ScoreList"
-                       schemaLocation="./ScoreList.xsd"/>
+            <xs:import namespace="http://jw.nju.edu.cn/schema"
+                       schemaLocation="Course.xsd"/>
+            <xs:import namespace="http://jw.nju.edu.cn/schema"
+                       schemaLocation="Student.xsd"/>
+            <xs:import namespace="http://jw.nju.edu.cn/schema"
+                       schemaLocation="ScoreList.xsd"/>
 
             <xs:element name="studentId" type="sns:学号类型"/>
-            <xs:element name="courseId" type="cns:课程编号类型"/>
-            <xs:element name="GETResponse" type="slns:课程成绩列表类型"/>
+            <xs:element name="courseId" type="sns:课程编号类型"/>
+            <xs:element name="GETResponse" type="sns:课程成绩列表类型"/>
             <xs:element name="average" type="xs:double"/>
         </xs:schema>
     </types>

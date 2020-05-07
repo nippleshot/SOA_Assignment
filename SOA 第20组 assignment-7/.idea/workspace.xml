@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="028f2a30-0fcd-4676-befd-a5364ebdb2e1" name="Default Changelist" comment="" />
+    <list default="true" id="028f2a30-0fcd-4676-befd-a5364ebdb2e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wsdl_20/Course.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/src/wsdl_20/Course.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wsdl_20/ScoreList.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/src/wsdl_20/ScoreList.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wsdl_20/Student.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/src/wsdl_20/Student.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wsdl_20/score_fault.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/src/wsdl_20/score_fault.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wsdl_20/studentScoreGET.wsdl" beforeDir="false" afterPath="$PROJECT_DIR$/src/wsdl_20/studentScoreGET.wsdl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wsdl_20/studentScorePOST.wsdl" beforeDir="false" afterPath="$PROJECT_DIR$/src/wsdl_20/studentScorePOST.wsdl" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1bTifDLGWClxBOIErYDF0A4OJTG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -47,10 +61,17 @@
       <updated>1588662584598</updated>
       <workItem from="1588662588632" duration="18788000" />
       <workItem from="1588769982191" duration="5481000" />
+      <workItem from="1588855910028" duration="1757000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="517" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1588855958795">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="517" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1588855958795" />
   </component>
 </project>

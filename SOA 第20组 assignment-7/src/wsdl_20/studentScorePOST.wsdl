@@ -4,7 +4,7 @@
         targetNamespace="http://jw.nju.edu.cn/wsdl/studentScorePOST"
         xmlns:tns="http://jw.nju.edu.cn/wsdl/studentScorePOST"
         xmlns:pns="http://jw.nju.edu.cn/schema/postInOut"
-        xmlns:sf="http://jw.nju.edu.cn/schema/studentScore-faults"
+        xmlns:sf="http://jw.nju.edu.cn/schema"
         xmlns:wsoap="http://www.w3.org/ns/wsdl/soap"
         xmlns:soap="http://www.w3.org/2003/05/soap-envelop">
 
@@ -12,43 +12,41 @@
 
     <types>
         <xs:import xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                   namespace="http://jw.nju.edu.cn/schema/studentScore-faults"
-                   schemaLocation="./score_fault.xsd"/>
+                   namespace="http://jw.nju.edu.cn/schema"
+                   schemaLocation="score_fault.xsd"/>
 
         <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
                    targetNamespace="http://jw.nju.edu.cn/schema/postInOut"
-                   xmlns:cns="http://www.nju.edu.cn/schema/Course"
-                   xmlns:sns="http://www.nju.edu.cn/schema/Student"
-                   xmlns:slns="http://www.nju.edu.cn/schema/ScoreList" >
+                   xmlns:sns="http://jw.nju.edu.cn/schema">
 
-            <xs:import namespace="http://jw.nju.edu.cn/schema/Course"
-                       schemaLocation="./Course.xsd"/>
+            <xs:import namespace="http://jw.nju.edu.cn/schema"
+                       schemaLocation="Course.xsd"/>
 
-            <xs:import namespace="http://jw.nju.edu.cn/schema/Student"
-                       schemaLocation="./Student.xsd"/>
+            <xs:import namespace="http://jw.nju.edu.cn/schema"
+                       schemaLocation="Student.xsd"/>
 
-            <xs:import namespace="http://jw.nju.edu.cn/schema/ScoreList"
-                       schemaLocation="./ScoreList.xsd"/>
+            <xs:import namespace="http://jw.nju.edu.cn/schema"
+                       schemaLocation="ScoreList.xsd"/>
             <xs:element name="POSTRequest">
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element name="课程编号" type="cns:课程编号类型"/>
+                        <xs:element name="课程编号" type="sns:课程编号类型"/>
                         <xs:element name="学号" type="sns:学号类型"/>
-                        <xs:element name="成绩类型" type="slns:成绩性质类型"/>
-                        <xs:element name="成绩" type="slns:得分类型"/>
+                        <xs:element name="成绩类型" type="sns:成绩性质类型"/>
+                        <xs:element name="成绩" type="sns:得分类型"/>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
             <xs:element name="deleteRequest">
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element name="课程编号" type="cns:课程编号类型"/>
+                        <xs:element name="课程编号" type="sns:课程编号类型"/>
                         <xs:element name="学号" type="sns:学号类型"/>
-                        <xs:element name="成绩类型" type="slns:成绩性质类型"/>
+                        <xs:element name="成绩类型" type="sns:成绩性质类型"/>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
-            <xs:element name="POSTResponse" type="slns:课程成绩列表类型"/>
+            <xs:element name="POSTResponse" type="sns:课程成绩列表类型"/>
         </xs:schema>
     </types>
 
