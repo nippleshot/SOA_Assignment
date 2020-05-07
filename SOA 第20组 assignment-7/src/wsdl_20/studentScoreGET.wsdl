@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<description
+        xmlns="http://www.w3.org/ns/wsdl"
+        targetNamespace="http://jw.nju.edu.cn/wsdl/studentScoreGET"
+        xmlns:tns="http://jw.nju.edu.cn/wsdl/studentScoreGET"
+        xmlns:sf="http://jw.nju.edu.cn/schema/studentScore-faults"
+        xmlns:gns="http://jw.nju.edu.cn/schema/getInOut"
+        xmlns:wsoap="http://www.w3.org/ns/wsdl/soap"
+        xmlns:soap="http://www.w3.org/2003/05/soap-envelop">
+
+    <documentation> This is Assignment-5 Service with with additional operation(getClassAverage) </documentation>
+
+    <types>
+        <xs:import xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                   namespace="http://jw.nju.edu.cn/schema/studentScore-faults"
+                   schemaLocation="score_fault.xsd"/>
+
+        <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                   targetNamespace="http://jw.nju.edu.cn/schema/getInOut"
+                   xmlns:cns="http://www.nju.edu.cn/schema/Course"
+                   xmlns:sns="http://www.nju.edu.cn/schema/Student"
+                   xmlns:slns="http://www.nju.edu.cn/schema/ScoreList">
+
+            <xs:import namespace="http://jw.nju.edu.cn/schema/Course"
+                       schemaLocation="./Course.xsd"/>
+            <xs:import namespace="http://jw.nju.edu.cn/schema/Student"
+                       schemaLocation="./Student.xsd"/>
+            <xs:import namespace="http://jw.nju.edu.cn/schema/ScoreList"
+                       schemaLocation="./ScoreList.xsd"/>
+
+            <xs:element name="studentId" type="sns:学号类型"/>
+            <xs:element name="courseId" type="cns:课程编号类型"/>
+            <xs:element name="GETResponse" type="slns:课程成绩列表类型"/>
+            <xs:element name="average" type="xs:double"/>
+        </xs:schema>
+    </types>
+
+    <interface name="getInterface">
+        <fault name="invalidStudentId" element="sf:InvalidStudentId"/>
+        <fault name="invalidCourseId" element="sf:InvalidCourseId"/>
+        <fault name="notExistStudentId" element="sf:NotExistStudentId"/>
+        <fault name="dataError" element="sf:DataFault"/>
+
+
+        <operation name="getScore"
+                   pattern="http://www.w3.org/ns/wsdl/in-out"
+                   style="http://www.w3.org/ns/wsdl/style/iri">
+            <input messageLabel="In" element="gns:studentId"/>
+            <output messageLabel="Out" element="gns:GETResponse"/>
+            <infault messageLabel="In" ref="tns:invalidStudentId"/>
+            <outfault messageLabel="Out" ref="tns:notExistStudentId"/>
+            <outfault messageLabel="Out" ref="tns:dataError"/>
+        </operation>
+
+        <operation name="getClassAverage"
+                   pattern="http://www.w3.org/ns/wsdl/in-out"
+                   style="http://www.w3.org/ns/wsdl/style/iri">
+            <input messageLabel="In" element="gns:courseId"/>
+            <output messageLabel="Out" element="gns:average"/>
+            <infault messageLabel="In" ref="tns:invalidCourseId"/>
+            <outfault messageLabel="Out" ref="tns:dataError"/>
+        </operation>
+    </interface>
+
+    <binding name="getBinding"
+             interface="tns:getInterface"
+             type="http://www.w3.org/ns/wsdl/soap"
+             wsoap:protocol="http://www.w3.org/2003/05/soap/bindings/HTTP/">
+        <operation ref="tns:getScore"
+                   wsoap:mep="http://www.w3.org/2003/05/soap/mep/soap-response"/>
+        <operation ref="tns:getClassAverage"
+                   wsoap:mep="http://www.w3.org/2003/05/soap/mep/soap-response"/>
+        <fault ref="tns:invalidStudentId"
+               wsoap:code="soap:Sender"/>
+        <fault ref="tns:invalidCourseId"
+               wsoap:code="soap:Sender"/>
+        <fault ref="tns:notExistStudentId"
+               wsoap:code="soap:Sender"/>
+        <fault ref="tns:dataError"
+               wsoap:code="soap:Sender"/>
+    </binding>
+
+    <service name="getService"
+             interface="tns:getInterface">
+        <endpoint name="getEndpoint"
+                  binding="tns:getBinding"
+                  address="localhost:8008/soap/servlet/"/>
+    </service>
+</description>

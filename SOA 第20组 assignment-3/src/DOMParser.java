@@ -1,5 +1,6 @@
 import java.io.*;
 import java.nio.charset.StandardCharsets;
+import java.util.Random;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -158,8 +159,10 @@ public class DOMParser {
         Element scoreSchoolID = document.createElement("学号");
         scoreSchoolID.setTextContent(id);
         Element scoreGot = document.createElement("得分");
-        int randomNumber = (int)(Math.random()*100)+1;
-        scoreGot.setTextContent(String.valueOf(randomNumber));
+
+        Random random = new Random();
+        int randomSixty2Hunnit = random.nextInt((100-60)+1) + 60;
+        scoreGot.setTextContent(String.valueOf(randomSixty2Hunnit));
         score.appendChild(scoreSchoolID);
         score.appendChild(scoreGot);
 
@@ -236,6 +239,30 @@ public class DOMParser {
         System.out.println(new String(out.toByteArray(), StandardCharsets.UTF_8));
     }
 
+    public Element fixStudentList(Element element) throws XPathExpressionException {
+        XPathFactory xPathFactory = XPathFactory.newInstance();
+        XPath xpath = xPathFactory.newXPath();
+
+        //find node to fix
+        String expression = "//得分";
+        NodeList nodes = (NodeList) xpath.compile(expression).evaluate(element, XPathConstants.NODESET);
+
+
+        //and just fix five student's '平时成绩' from 课程编号'00000001'
+        for(int i=0; i<nodes.getLength(); i++){
+            if(i%15==0){
+                Element where2Fix = (Element)nodes.item(i);
+                Random random = new Random();
+                int randomTen2Sixty = random.nextInt((60-10)+1) + 10;
+                where2Fix.setTextContent(String.valueOf(randomTen2Sixty));
+            } else if (i==77) {
+                break;
+            }
+        }
+
+        return element;
+    }
+
     public static void main(String[] args) throws IOException, SAXException, ParserConfigurationException, XPathExpressionException, TransformerException {
         //XML1 Parsing
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
@@ -248,20 +275,20 @@ public class DOMParser {
         Element studentFromXML1 = domParser.fixXML1(document2Read);
 //        domParser.printElement(studentFromXML1);
         String[][] info4Personal = {
-                {"曹阳","男","1998-05-22","123456781","软件学院"},
-                {"赖童鑫","男","1998-02-20","123456781","软件学院"},
-                {"宋吉载","男","1996-03-22","123456789","软件学院"},
-                {"孙逸伦","男","1998-03-12","123452781","软件学院"},
-                {"张睿","男","1998-01-26","123426781","软件学院"},
-                {"王禹杰","男","1998-12-14","123456781","软件学院"},
-                {"詹志","男","1998-11-19","123454781","软件学院"},
-                {"顾韬","男","1998-11-12","113452781","软件学院"},
-                {"朱晓杰","男","1998-09-12","413456781","软件学院"},
-                {"王阳","男","1998-08-22","623456781","软件学院"},
-                {"陈煜遥","男","1998-01-22","923456781","软件学院"},
-                {"陈留圣","男","1998-06-12","223456781","软件学院"},
-                {"农增昀","男","1998-03-12","423456781","软件学院"},
-                {"胡丹丹","女","1998-01-15","023456781","软件学院"},
+                {"曹阳","男","1998-05-22","123456781111112311","软件学院"},
+                {"赖童鑫","男","1998-02-20","123456781111180111","软件学院"},
+                {"宋吉载","男","1996-03-22","123456789118911111","软件学院"},
+                {"孙逸伦","男","1998-03-12","123452781113511111","软件学院"},
+                {"张睿","男","1998-01-26","123426781111681111","软件学院"},
+                {"王禹杰","男","1998-12-14","123456781111111111","软件学院"},
+                {"詹志","男","1998-11-19","123454781111991111","软件学院"},
+                {"顾韬","男","1998-11-12","113452781111111111","软件学院"},
+                {"朱晓杰","男","1998-09-12","413456781188111111","软件学院"},
+                {"王阳","男","1998-08-22","623456781111111111","软件学院"},
+                {"陈煜遥","男","1998-01-22","923456781166111111","软件学院"},
+                {"陈留圣","男","1998-06-12","223456781111111111","软件学院"},
+                {"农增昀","男","1998-03-12","423456781112211111","软件学院"},
+                {"胡丹丹","女","1998-01-15","023456781133111111","软件学院"},
         };
 
         String[][] info4StdPersonal = {
@@ -284,6 +311,11 @@ public class DOMParser {
         Element studentList = domParser.makeStudentList(document, info4Personal, info4StdPersonal);
         Node XML1Student = document.importNode(studentFromXML1, true);
         studentList.appendChild(XML1Student);
+
+//        domParser.printElement(studentList);
+
+        studentList = domParser.fixStudentList(studentList);
+//        domParser.printElement(studentList);
 
         domParser.makeXMLFile(document, studentList);
     }

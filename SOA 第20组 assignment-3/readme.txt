@@ -41,10 +41,14 @@
 
 - makeScoreElement():
     生成 '<成绩>'元素
-    得分的话，使用了1~100之间的Math.random。
+    得分的话，使用了60~100之间的Random.nextInt()
+
+- fixStudentList():
+    在生成好的'<学生列表>'元素里修改5个学生的课程编号'00000001'的平时成绩低于60
 
 - main():
     首先，通过调用fixXML1()，修改XML1的'<学生>'元素
     生成一个包括14个'<学生>'元素的'<学生列表>'元素
     使用importNode()之后,添加之前修改XML1的'<学生>'元素到'<学生列表>'元素里
+    通过fixStudentList()，修改了'<学生列表>'元素里的<得分>内容。
     最后通过调用makeXMLFile()，生成'StudentList.xml'文件

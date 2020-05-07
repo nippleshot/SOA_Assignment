@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<description
+        xmlns="http://www.w3.org/ns/wsdl"
+        targetNamespace="http://jw.nju.edu.cn/wsdl/studentScorePOST"
+        xmlns:tns="http://jw.nju.edu.cn/wsdl/studentScorePOST"
+        xmlns:pns="http://jw.nju.edu.cn/schema/postInOut"
+        xmlns:sf="http://jw.nju.edu.cn/schema/studentScore-faults"
+        xmlns:wsoap="http://www.w3.org/ns/wsdl/soap"
+        xmlns:soap="http://www.w3.org/2003/05/soap-envelop">
+
+    <documentation> This is Assignment-6 Service with additional operation(addScore, deleteScore) </documentation>
+
+    <types>
+        <xs:import xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                   namespace="http://jw.nju.edu.cn/schema/studentScore-faults"
+                   schemaLocation="./score_fault.xsd"/>
+
+        <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                   targetNamespace="http://jw.nju.edu.cn/schema/postInOut"
+                   xmlns:cns="http://www.nju.edu.cn/schema/Course"
+                   xmlns:sns="http://www.nju.edu.cn/schema/Student"
+                   xmlns:slns="http://www.nju.edu.cn/schema/ScoreList" >
+
+            <xs:import namespace="http://jw.nju.edu.cn/schema/Course"
+                       schemaLocation="./Course.xsd"/>
+
+            <xs:import namespace="http://jw.nju.edu.cn/schema/Student"
+                       schemaLocation="./Student.xsd"/>
+
+            <xs:import namespace="http://jw.nju.edu.cn/schema/ScoreList"
+                       schemaLocation="./ScoreList.xsd"/>
+            <xs:element name="POSTRequest">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="课程编号" type="cns:课程编号类型"/>
+                        <xs:element name="学号" type="sns:学号类型"/>
+                        <xs:element name="成绩类型" type="slns:成绩性质类型"/>
+                        <xs:element name="成绩" type="slns:得分类型"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="deleteRequest">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="课程编号" type="cns:课程编号类型"/>
+                        <xs:element name="学号" type="sns:学号类型"/>
+                        <xs:element name="成绩类型" type="slns:成绩性质类型"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="POSTResponse" type="slns:课程成绩列表类型"/>
+        </xs:schema>
+    </types>
+
+    <interface name="postInterface">
+        <fault name="invalidCourseId" element="sf:InvalidCourseId"/>
+        <fault name="invalidStudentId" element="sf:InvalidStudentId"/>
+        <fault name="invalidScoreType" element="sf:InvalidScoreType"/>
+        <fault name="invalidScore" element="sf:InvalidScore"/>
+        <fault name="notExistStudentId" element="sf:NotExistStudentId"/>
+        <fault name="notExistScore" element="sf:NotExistScore"/>
+        <fault name="dataAlreadyExist" element="sf:DataAlreadyExist"/>
+
+        <operation name="fixScore"
+                   pattern="http://www.w3.org/ns/wsdl/in-out"
+                   style="http://www.w3.org/ns/wsdl/style/iri">
+            <input messageLabel="In" element="pns:POSTRequest"/>
+            <output messageLabel="Out" element="pns:POSTResponse"/>
+            <infault messageLabel="In" ref="tns:invalidCourseId"/>
+            <infault messageLabel="In" ref="tns:invalidStudentId"/>
+            <infault messageLabel="In" ref="tns:invalidScoreType"/>
+            <infault messageLabel="In" ref="tns:invalidScore"/>
+            <outfault messageLabel="Out" ref="tns:notExistStudentId"/>
+            <outfault messageLabel="Out" ref="tns:notExistScore"/>
+        </operation>
+
+        <operation name="addScore"
+                   pattern="http://www.w3.org/ns/wsdl/in-out"
+                   style="http://www.w3.org/ns/wsdl/style/iri">
+            <input messageLabel="In" element="pns:POSTRequest"/>
+            <output messageLabel="Out" element="pns:POSTResponse"/>
+            <infault messageLabel="In" ref="tns:invalidCourseId"/>
+            <infault messageLabel="In" ref="tns:invalidStudentId"/>
+            <infault messageLabel="In" ref="tns:invalidScoreType"/>
+            <infault messageLabel="In" ref="tns:invalidScore"/>
+            <outfault messageLabel="Out" ref="tns:dataAlreadyExist"/>
+        </operation>
+
+        <operation name="deleteScore"
+                   pattern="http://www.w3.org/ns/wsdl/in-out"
+                   style="http://www.w3.org/ns/wsdl/style/iri">
+            <input messageLabel="In" element="pns:deleteRequest"/>
+            <output messageLabel="Out" element="pns:POSTResponse"/>
+            <infault messageLabel="In" ref="tns:invalidCourseId"/>
+            <infault messageLabel="In" ref="tns:invalidStudentId"/>
+            <infault messageLabel="In" ref="tns:invalidScoreType"/>
+            <outfault messageLabel="Out" ref="tns:notExistStudentId"/>
+            <outfault messageLabel="Out" ref="tns:notExistScore"/>
+        </operation>
+
+    </interface>
+
+    <binding name="postBinding"
+             interface="tns:postInterface"
+             type="http://www.w3.org/ns/wsdl/soap"
+             wsoap:protocol="http://www.w3.org/2003/05/soap/bindings/HTTP/">
+        <operation ref="tns:fixScore"
+                   wsoap:mep="http://www.w3.org/2003/05/soap/mep/request-response"/>
+        <operation ref="tns:addScore"
+                   wsoap:mep="http://www.w3.org/2003/05/soap/mep/request-response"/>
+        <operation ref="tns:deleteScore"
+                   wsoap:mep="http://www.w3.org/2003/05/soap/mep/request-response"/>
+        <fault ref="tns:invalidCourseId"
+               wsoap:code="soap:Sender"/>
+        <fault ref="tns:invalidStudentId"
+               wsoap:code="soap:Sender"/>
+        <fault ref="tns:invalidScoreType"
+               wsoap:code="soap:Sender"/>
+        <fault ref="tns:invalidScore"
+               wsoap:code="soap:Sender"/>
+        <fault ref="tns:notExistStudentId"
+               wsoap:code="soap:Sender"/>
+        <fault ref="tns:notExistScore"
+               wsoap:code="soap:Sender"/>
+    </binding>
+
+    <service name="postService"
+             interface="tns:postInterface">
+        <endpoint name="postEndpoint"
+                  binding="tns:postBinding"
+                  address="localhost:8008/soap/"/>
+    </service>
+</description>
