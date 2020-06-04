@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jaxws">
+    <CLASSES>
+      <root url="file://F:/resource_lib/jaxws" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://F:/resource_lib/jaxws" recursive="false" />
+  </library>
+</component>

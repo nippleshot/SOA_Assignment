@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="newWarPackage">
+    <output-path>$PROJECT_DIR$/out/artifacts/newWarPackage</output-path>
+    <root id="archive" name="newWarPackage.war">
+      <element id="dir-copy" path="$PROJECT_DIR$/src/main/java/com/xueyoucto/xueyou" />
+    </root>
+  </artifact>
+</component>

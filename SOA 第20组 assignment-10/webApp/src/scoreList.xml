@@ -1,0 +1,1336 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Student_Score>
+    <Course_Score_List>
+        <Course_Score Course_Id="00000001" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>155250001</Student_Id>
+                <Credit>99</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>155250001</Student_Id>
+                <Credit>99</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>155250001</Student_Id>
+                <Credit>77</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>155250001</Student_Id>
+                <Credit>67</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>155250001</Student_Id>
+                <Credit>69</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>155250001</Student_Id>
+                <Credit>69</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>155250001</Student_Id>
+                <Credit>63</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>155250001</Student_Id>
+                <Credit>78</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>155250001</Student_Id>
+                <Credit>81</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>155250001</Student_Id>
+                <Credit>88</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>155250001</Student_Id>
+                <Credit>99</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>155250001</Student_Id>
+                <Credit>66</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250024</Student_Id>
+                <Credit>6a</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250024</Student_Id>
+                <Credit>61</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250024</Student_Id>
+                <Credit>85</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250024</Student_Id>
+                <Credit>77</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250024</Student_Id>
+                <Credit>70</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250024</Student_Id>
+                <Credit>8a</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250024</Student_Id>
+                <Credit>75</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250024</Student_Id>
+                <Credit>94</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250024</Student_Id>
+                <Credit>83</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250024</Student_Id>
+                <Credit>83</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250024</Student_Id>
+                <Credit>60</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250024</Student_Id>
+                <Credit>82</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250024</Student_Id>
+                <Credit>66</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250024</Student_Id>
+                <Credit>97</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250024</Student_Id>
+                <Credit>62</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250503</Student_Id>
+                <Credit>62</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250503</Student_Id>
+                <Credit>69</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250503</Student_Id>
+                <Credit>72</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250503</Student_Id>
+                <Credit>90</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250503</Student_Id>
+                <Credit>76</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250503</Student_Id>
+                <Credit>66</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250503</Student_Id>
+                <Credit>85</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250503</Student_Id>
+                <Credit>93</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250503</Student_Id>
+                <Credit>89</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250503</Student_Id>
+                <Credit>70</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250503</Student_Id>
+                <Credit>88</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250503</Student_Id>
+                <Credit>92</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250503</Student_Id>
+                <Credit>62</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250503</Student_Id>
+                <Credit>68</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250503</Student_Id>
+                <Credit>69</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250511</Student_Id>
+                <Credit>18</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250511</Student_Id>
+                <Credit>8q</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250511</Student_Id>
+                <Credit>66</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250511</Student_Id>
+                <Credit>72</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250511</Student_Id>
+                <Credit>65</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250511</Student_Id>
+                <Credit>83</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250511</Student_Id>
+                <Credit>67</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250511</Student_Id>
+                <Credit>72</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250511</Student_Id>
+                <Credit>86</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250511</Student_Id>
+                <Credit>74</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250511</Student_Id>
+                <Credit>69</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250511</Student_Id>
+                <Credit>71</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250511</Student_Id>
+                <Credit>83</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250511</Student_Id>
+                <Credit>98</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250511</Student_Id>
+                <Credit>60</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250515</Student_Id>
+                <Credit>66</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250515</Student_Id>
+                <Credit>93</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250515</Student_Id>
+                <Credit>96</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250515</Student_Id>
+                <Credit>87</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250515</Student_Id>
+                <Credit>70</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250515</Student_Id>
+                <Credit>69</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250515</Student_Id>
+                <Credit>77</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250515</Student_Id>
+                <Credit>81</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250515</Student_Id>
+                <Credit>86</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250515</Student_Id>
+                <Credit>87</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250515</Student_Id>
+                <Credit>81</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250515</Student_Id>
+                <Credit>91</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250515</Student_Id>
+                <Credit>62</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250515</Student_Id>
+                <Credit>98</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250515</Student_Id>
+                <Credit>65</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250520</Student_Id>
+                <Credit>22</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250520</Student_Id>
+                <Credit>71</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250520</Student_Id>
+                <Credit>97</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250520</Student_Id>
+                <Credit>68</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250520</Student_Id>
+                <Credit>70</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250520</Student_Id>
+                <Credit>88</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250520</Student_Id>
+                <Credit>64</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250520</Student_Id>
+                <Credit>68</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250520</Student_Id>
+                <Credit>68</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250520</Student_Id>
+                <Credit>85</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250520</Student_Id>
+                <Credit>99</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250520</Student_Id>
+                <Credit>93</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250520</Student_Id>
+                <Credit>69</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250520</Student_Id>
+                <Credit>85</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250520</Student_Id>
+                <Credit>90</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250528</Student_Id>
+                <Credit>79</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250528</Student_Id>
+                <Credit>81</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250528</Student_Id>
+                <Credit>96</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250528</Student_Id>
+                <Credit>68</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250528</Student_Id>
+                <Credit>65</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250528</Student_Id>
+                <Credit>60</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250528</Student_Id>
+                <Credit>68</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250528</Student_Id>
+                <Credit>100</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250528</Student_Id>
+                <Credit>90</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250528</Student_Id>
+                <Credit>99</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250528</Student_Id>
+                <Credit>97</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250528</Student_Id>
+                <Credit>86</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250528</Student_Id>
+                <Credit>73</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250528</Student_Id>
+                <Credit>91</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250528</Student_Id>
+                <Credit>69</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250529</Student_Id>
+                <Credit>67</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250529</Student_Id>
+                <Credit>86</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250529</Student_Id>
+                <Credit>65</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250529</Student_Id>
+                <Credit>60</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250529</Student_Id>
+                <Credit>71</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250529</Student_Id>
+                <Credit>98</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250529</Student_Id>
+                <Credit>98</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250529</Student_Id>
+                <Credit>95</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250529</Student_Id>
+                <Credit>83</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250529</Student_Id>
+                <Credit>61</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250529</Student_Id>
+                <Credit>96</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250529</Student_Id>
+                <Credit>77</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250529</Student_Id>
+                <Credit>84</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250529</Student_Id>
+                <Credit>71</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250529</Student_Id>
+                <Credit>83</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250530</Student_Id>
+                <Credit>71</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250530</Student_Id>
+                <Credit>100</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250530</Student_Id>
+                <Credit>78</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250530</Student_Id>
+                <Credit>94</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250530</Student_Id>
+                <Credit>70</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250530</Student_Id>
+                <Credit>88</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250530</Student_Id>
+                <Credit>81</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250530</Student_Id>
+                <Credit>82</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250530</Student_Id>
+                <Credit>60</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250530</Student_Id>
+                <Credit>90</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250530</Student_Id>
+                <Credit>82</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250530</Student_Id>
+                <Credit>90</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250530</Student_Id>
+                <Credit>61</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250530</Student_Id>
+                <Credit>78</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250530</Student_Id>
+                <Credit>94</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250533</Student_Id>
+                <Credit>47</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250533</Student_Id>
+                <Credit>100</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250533</Student_Id>
+                <Credit>64</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250533</Student_Id>
+                <Credit>87</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250533</Student_Id>
+                <Credit>61</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250533</Student_Id>
+                <Credit>79</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250533</Student_Id>
+                <Credit>79</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250533</Student_Id>
+                <Credit>93</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250533</Student_Id>
+                <Credit>70</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250533</Student_Id>
+                <Credit>74</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250533</Student_Id>
+                <Credit>69</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250533</Student_Id>
+                <Credit>84</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250533</Student_Id>
+                <Credit>92</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250533</Student_Id>
+                <Credit>82</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250533</Student_Id>
+                <Credit>79</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250540</Student_Id>
+                <Credit>97</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250540</Student_Id>
+                <Credit>83</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250540</Student_Id>
+                <Credit>94</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250540</Student_Id>
+                <Credit>65</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250540</Student_Id>
+                <Credit>84</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250540</Student_Id>
+                <Credit>84</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250540</Student_Id>
+                <Credit>96</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250540</Student_Id>
+                <Credit>98</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250540</Student_Id>
+                <Credit>64</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250540</Student_Id>
+                <Credit>87</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250540</Student_Id>
+                <Credit>72</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250540</Student_Id>
+                <Credit>68</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250540</Student_Id>
+                <Credit>63</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250540</Student_Id>
+                <Credit>79</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250540</Student_Id>
+                <Credit>68</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250541</Student_Id>
+                <Credit>98</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250541</Student_Id>
+                <Credit>81</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250541</Student_Id>
+                <Credit>62</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250541</Student_Id>
+                <Credit>81</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250541</Student_Id>
+                <Credit>81</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250541</Student_Id>
+                <Credit>62</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250541</Student_Id>
+                <Credit>76</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250541</Student_Id>
+                <Credit>100</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250541</Student_Id>
+                <Credit>98</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250541</Student_Id>
+                <Credit>76</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250541</Student_Id>
+                <Credit>68</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250541</Student_Id>
+                <Credit>96</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250541</Student_Id>
+                <Credit>75</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250541</Student_Id>
+                <Credit>97</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250541</Student_Id>
+                <Credit>61</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250550</Student_Id>
+                <Credit>20</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250550</Student_Id>
+                <Credit>89</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250550</Student_Id>
+                <Credit>64</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250550</Student_Id>
+                <Credit>69</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250550</Student_Id>
+                <Credit>87</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250550</Student_Id>
+                <Credit>62</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250550</Student_Id>
+                <Credit>75</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250550</Student_Id>
+                <Credit>75</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250550</Student_Id>
+                <Credit>98</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250550</Student_Id>
+                <Credit>75</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250550</Student_Id>
+                <Credit>77</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250550</Student_Id>
+                <Credit>83</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250550</Student_Id>
+                <Credit>76</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250550</Student_Id>
+                <Credit>76</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250550</Student_Id>
+                <Credit>82</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250552</Student_Id>
+                <Credit>99</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250552</Student_Id>
+                <Credit>90</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250552</Student_Id>
+                <Credit>94</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250552</Student_Id>
+                <Credit>65</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250552</Student_Id>
+                <Credit>89</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250552</Student_Id>
+                <Credit>88</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250552</Student_Id>
+                <Credit>100</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250552</Student_Id>
+                <Credit>76</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250552</Student_Id>
+                <Credit>97</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250552</Student_Id>
+                <Credit>85</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250552</Student_Id>
+                <Credit>74</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250552</Student_Id>
+                <Credit>72</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250552</Student_Id>
+                <Credit>90</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250552</Student_Id>
+                <Credit>92</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250552</Student_Id>
+                <Credit>97</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250587</Student_Id>
+                <Credit>49</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250587</Student_Id>
+                <Credit>92</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000001" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250587</Student_Id>
+                <Credit>66</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250587</Student_Id>
+                <Credit>70</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250587</Student_Id>
+                <Credit>64</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000002" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250587</Student_Id>
+                <Credit>64</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250587</Student_Id>
+                <Credit>81</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250587</Student_Id>
+                <Credit>81</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000003" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250587</Student_Id>
+                <Credit>83</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250587</Student_Id>
+                <Credit>85</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250587</Student_Id>
+                <Credit>94</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000004" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250587</Student_Id>
+                <Credit>77</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="Daily_Score">
+            <Score>
+                <Student_Id>171250587</Student_Id>
+                <Credit>79</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="End_Exam_Score">
+            <Score>
+                <Student_Id>171250587</Student_Id>
+                <Credit>92</Credit>
+            </Score>
+        </Course_Score>
+        <Course_Score Course_Id="00000005" Score_Type="Final_Score">
+            <Score>
+                <Student_Id>171250587</Student_Id>
+                <Credit>75</Credit>
+            </Score>
+        </Course_Score>
+    </Course_Score_List>
+</Student_Score>
